@@ -4,8 +4,6 @@ Offline semantic photo search for a Raspberry Pi. Search your photo library with
 
 Uses CLIP embeddings and [Qdrant EDGE](https://qdrant.tech/blog/qdrant-edge/) (an embedded, single-shard vector database) for fast on-device similarity search.
 
-![search UI screenshot](docs/screenshot.png)
-
 ## How it works
 
 1. **Index** — run `indexer.py` on any machine to compute CLIP image embeddings for your photo library and store them in a Qdrant EDGE shard
